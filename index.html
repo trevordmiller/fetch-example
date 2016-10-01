@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: monospace;
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding: 2rem 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      console.log = (text) => (
+        document.body.innerHTML = text
+      )
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>

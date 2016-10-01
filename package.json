@@ -1,0 +1,25 @@
+{
+  "name": "fetch-example",
+  "version": "1.0.0",
+  "description": "An example of using fetch for getting data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevordmiller/fetch-example.git"
+  },
+  "keywords": [
+    "fetch"
+  ],
+  "author": "Trevor D. Miller <trevordmiller@icloud.com> (http://www.trevordmiller.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trevordmiller/fetch-example/issues"
+  },
+  "homepage": "https://github.com/trevordmiller/fetch-example#readme",
+  "dependencies": {
+    "node-fetch": "^1.6.3"
+  }
+}
